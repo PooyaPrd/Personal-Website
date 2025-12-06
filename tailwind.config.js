@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: '#050505', // همون رنگ سیاهی که دوست داری
+        bg: '#050505', 
       },
     },
   },
