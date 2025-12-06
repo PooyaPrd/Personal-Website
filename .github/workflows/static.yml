@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # تغییر مهم اینجاست: رمز رو به پروسه بیلد تزریق کردیم
+      
       - name: Build
         run: npm run build
         env:
