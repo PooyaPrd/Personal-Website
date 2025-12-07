@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Twitter, Telegram } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
 import { SectionHeading } from './ui/SectionHeading';
 
 const socialLinks = [
@@ -22,8 +22,8 @@ const socialLinks = [
     color: "hover:text-purple-400"
   },
   {
-    name: "Telegram",
-    icon: <Telegram size={28} />,
+    name: "Twitter",
+    icon: <Twitter size={28} />,
     href: "#",
     color: "hover:text-sky-400"
   }
@@ -64,10 +64,10 @@ export const Connect: React.FC = () => {
       <div className="mt-16 text-center">
         <p className="text-gray-400 mb-6">Or send a quick message directly</p>
         <a 
-          href="mailto:hello@mohammadpouya.dev"
+          href="https://t.me/M_P00YA"
           className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold hover:shadow-[0_0_40px_rgba(124,58,237,0.5)] transition-all duration-300 hover:scale-105 active:scale-95"
         >
-          hello@mohammadpouya.dev
+          Telegram! 
         </a>
       </div>
     </section>
