@@ -1,29 +1,29 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter, Telegram } from 'lucide-react';
 import { SectionHeading } from './ui/SectionHeading';
 
 const socialLinks = [
   {
     name: "GitHub",
     icon: <Github size={28} />,
-    href: "#",
+    href: "https://github.com/PooyaPrd",
     color: "hover:text-white"
   },
   {
     name: "LinkedIn",
     icon: <Linkedin size={28} />,
-    href: "#",
+    href: "https://www.linkedin.com/in/pouya-pourarshad-a2aa78369",
     color: "hover:text-blue-400"
   },
   {
     name: "Email",
     icon: <Mail size={28} />,
-    href: "mailto:hello@example.com",
+    href: "mailto:PouyaPourarshad@gmail.com",
     color: "hover:text-purple-400"
   },
   {
-    name: "Twitter",
-    icon: <Twitter size={28} />,
+    name: "Telegram",
+    icon: <Telegram size={28} />,
     href: "#",
     color: "hover:text-sky-400"
   }
