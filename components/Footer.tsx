@@ -7,13 +7,13 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-xs md:text-sm text-gray-500">
         
         <p className="mb-2 md:mb-0">
-          © {new Date().getFullYear()} Mohammad Pouya Pourarshad. All Rights Reserved.
+          © {new Date().getFullYear()} Pouya Pourarshad.
         </p>
 
         <div className="flex items-center gap-2">
-          <span>Designed & Crafted with</span>
+          <span>Designed with</span>
           <Heart size={14} className="text-red-500 animate-pulse fill-red-500" />
-          <span>in the Digital Realm</span>
+          <span>for myself maybe!</span>
         </div>
 
       </div>

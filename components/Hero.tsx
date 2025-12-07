@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
         </span>
-        Available for new opportunities
+        Focused on ongoing work
       </div>
 
       {/* Main Heading */}
@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
             ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}
           `}
         >
-          Mohammad Pouya
+          Pouya
         </span>
         <span 
           className={`
